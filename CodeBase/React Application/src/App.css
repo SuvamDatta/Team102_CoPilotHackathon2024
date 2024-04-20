@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 500px;
+  width:1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width:1275px;
+  object-fit: cover;
+  z-index: -1; /* Ensures the image is behind other content */
+}
+.backgrouddiv {
+width: 100%;
+height: 100%;
+background-image: url('https://miro.medium.com/v2/resize:fit:1358/1*c3xF7B_4yVXakwo9ow8q3A.png');
+background-size: cover;
+background-position: center;
+}
+.App-logo {
+  
+  object-fit: fill;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-chatbox{ position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 400px; /* Adjust width as needed */
+  /* height: 400px; Adjust height as needed */
+  /* float: right; */
+  /* margin-left: 20px; */
+}
+
