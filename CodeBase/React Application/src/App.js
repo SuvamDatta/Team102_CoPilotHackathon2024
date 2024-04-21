@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="backgrouddiv" style={divstyle}>
       <iframe
-        src="https://copilotstudio.microsoft.com/environments/Default-0b9d902d-e3c1-48f1-8979-365832b339dd/bots/cr6e3_tiffanyCoPilot/webchat?__version__=2"
+        src="https://web.powerva.microsoft.com/environments/Default-0b9d902d-e3c1-48f1-8979-365832b339dd/bots/cr6e3_knowledgeExplorerChatBot/webchat?__version__=2"
         frameborder="0"
         className="App-chatbox"
         style={Iframestyle}
